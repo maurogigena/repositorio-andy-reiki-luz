@@ -50,6 +50,11 @@ footer {
   font-weight: 600;
 }
 
+.img-meditacion {
+  box-shadow: 4px 4px 4px 4px #808080;
+  border-radius: 35px;
+}
+
 /* NAVBAR */
 .container-fluid {
   background-color: #783a74;
@@ -157,6 +162,14 @@ footer {
 .button-contacto:hover {
   background-color: #4e274c;
   transform: scale(1.2);
+}
+
+.img-map {
+  transition: transform 0.3s ease;
+}
+.img-map:hover {
+  box-shadow: 3px 3px 3px #808080;
+  transform: scale(1.05);
 }
 
 /*# sourceMappingURL=main.css.map */

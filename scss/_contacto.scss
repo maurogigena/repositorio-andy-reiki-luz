@@ -20,3 +20,10 @@
         transform: scale(1.2); 
     }
 }
+.img-map {
+    transition: transform 0.3s ease;
+    &:hover {
+        box-shadow: 3px 3px 3px #808080;
+        transform: scale(1.05); 
+    }
+}
