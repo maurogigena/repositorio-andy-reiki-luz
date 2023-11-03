@@ -1,0 +1,22 @@
+/* QUIEN SOY Y CONTACTO */
+.quien-soy-contacto {
+    font-family: 'Forum', serif;
+    font-weight: 500;
+    font-size: 27px;
+}
+.list-group-item {
+    color: black;
+    text-decoration: none;
+    font-family: 'Forum', serif;
+}
+.button-contacto {
+    background-color: #783a74;
+    border: #783a74;
+    color: aliceblue;
+    box-shadow: 3px 3px 3px #808080;
+    transition: transform 0.3s ease;
+    &:hover {
+        background-color: #4e274c;
+        transform: scale(1.2); 
+    }
+}

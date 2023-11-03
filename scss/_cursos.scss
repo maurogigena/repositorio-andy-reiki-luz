@@ -1,0 +1,18 @@
+/* CURSOS TALLERES Y SEMINARIOS - CTS*/
+.cts {
+    font-family: 'Forum', serif;
+    font-size: 33px;
+    margin-top: 10px;
+}
+.text-cts {
+    font-size: 17px;
+}
+.col-cts {
+    transition: transform 0.3s ease;
+    &:hover {
+        background-color: #ffffff;
+        transform: scale(1.2); 
+        box-shadow: 5px 5px 5px 3px gray;
+        border-radius: 10px;
+    }
+}

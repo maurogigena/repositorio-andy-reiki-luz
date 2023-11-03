@@ -1,3 +1,4 @@
+/* NAVBAR */
 .container-fluid {
     background-color: #783a74;
     position: fixed;
@@ -7,11 +8,24 @@
 .navbar-brand {
     font-family: 'Great Vibes', cursive;
     color: #ffffff;
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 200;
+    &:hover {
+        color: #ffffff;
+        text-shadow: 0 4px 8px #e79be7;
+    }
 }
-.nav-link {
+.navbar-nav .nav-link.active, .navbar-nav .nav-link {
     font-family: 'Forum', serif;
-    color: #fefefe;
+    color: #ffffff;
     font-size: 20px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.dropdown-item {
+    &:hover {
+        color: #ffffff;
+        background-color: #b98db9;
+    }
 }
