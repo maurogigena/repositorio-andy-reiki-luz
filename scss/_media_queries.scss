@@ -1,0 +1,27 @@
+/* MEDIA QUERIES - MOBILE FIRST */
+/* MOBILE */
+@media (min-width: 300px) and (max-width: 767px) {
+    .img-map {
+        display: none; /* Oculta la imagen en dispositivos móviles */
+      }
+    .img-meditacion {
+        width: 200px;
+        height: 230px;
+        margin-left: 33px;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+}
+/* TABLETS */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .titulo {
+        font-size: 70px;
+        margin-bottom: 30px;
+    }
+  }
+    /* DESKTOP */
+@media (min-width: 1025px) {
+   
+  }
+  
