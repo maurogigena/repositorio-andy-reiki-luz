@@ -144,6 +144,11 @@ footer {
   border-radius: 10px;
 }
 
+.cts-link {
+  font-family: "Forum", serif;
+  font-size: 30px;
+}
+
 /* QUIEN SOY Y CONTACTO */
 .quien-soy-contacto {
   font-family: "Forum", serif;
