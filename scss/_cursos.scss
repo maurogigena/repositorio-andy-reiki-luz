@@ -7,16 +7,47 @@
 .text-cts {
     font-size: 17px;
 }
+.bio-andy {
+    font-style: italic;
+    font-size: 15px;
+}
 .col-cts {
+    font-family: 'Forum', serif;
+    font-size: 30px;
+    border-color: #000000;
+    margin-top: 30px;
+    text-align: center;
     transition: transform 0.3s ease;
+    text-decoration: none;
+    color: #000;
     &:hover {
         background-color: #ffffff;
-        transform: scale(1.2); 
-        box-shadow: 5px 5px 5px 3px gray;
+        transform: scale(1.05); 
+        box-shadow: 5px 5px 5px 3px #808080;
         border-radius: 10px;
     }
 }
-.cts-link {
+.cts-link a {
     font-family: 'Forum', serif;
     font-size: 30px;
+    text-decoration: none;
+    color: #000;
+}
+.cts-link {
+    margin-top: 30px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    &:hover {
+        background-color: #ffffff;
+        transform: scale(1.05); 
+        box-shadow: 5px 5px 5px 3px #808080;
+        border-radius: 5px;
+        text-decoration: underline #000000;
+    }
+}
+.img-cursos {
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px #808080;
+    height: 500px;
+    width: 300px;
 }

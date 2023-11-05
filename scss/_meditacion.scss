@@ -6,9 +6,17 @@
     margin-right: 20px;
 }
 .list-group-item {
-    font-weight: 600;
+    font-weight: 550;
+    transition: transform 0.3s ease;
+    &:hover {
+        background-color: #ffffff;
+        transform: scale(1.05); 
+        box-shadow: 5px 5px 5px 3px gray;
+        border-radius: 10px;
+    }
 }
 .img-meditacion {
     box-shadow: 4px 4px 4px 4px #808080;
     border-radius: 35px;
+    margin-left: 70px;
 }
