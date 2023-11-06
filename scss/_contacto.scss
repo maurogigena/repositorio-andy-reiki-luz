@@ -29,3 +29,12 @@
         transform: scale(1.05); 
     }
 }
+.a-contacto {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Forum', serif;
+    font-size: 20px;
+    &:hover {
+        text-decoration: underline black;
+    }
+}

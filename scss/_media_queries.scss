@@ -1,8 +1,21 @@
 /* MEDIA QUERIES - MOBILE FIRST */
 /* MOBILE */
 @media (min-width: 300px) and (max-width: 767px) {
+    .titulo-query {
+        top: 75px;
+        margin-left: 27px;
+        margin-right: 130px;
+        position: absolute;
+        display: flex;
+        z-index: 100;
+        color: #ffffff;
+        justify-content: center;
+        text-shadow: 5px 5px 5px #000000c3;
+        font-size: 35px;
+        font-family: 'Great Vibes', cursive;
+    }
     .img-map {
-        display: none; /* Oculta la imagen en dispositivos móviles */
+        display: none;
       }
     .img-meditacion {
         width: 200px;
@@ -12,6 +25,21 @@
     .navbar-toggler {
         display: none;
     }
+    .cts-link {
+        margin-top: 60px;
+        margin-left: 43px;
+        width: 70%; 
+        height: 95px; 
+        border-top: 1px solid #000000; 
+        border-bottom: 1px solid #000000;
+    }
+    .mce-query {
+        margin-left: 30px;
+    }
+    .mce-query-contacto {
+        margin-top: 10px;
+        margin-left: 85px;
+    }
 }
 /* TABLETS */
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -19,9 +47,17 @@
         font-size: 70px;
         margin-bottom: 30px;
     }
+    .titulo-query {
+        display: none;
+    }
+    .cts-link {
+        margin-left: 105px;
+    }
   }
 /* DESKTOP */
 @media (min-width: 1025px) {
-   
+    .titulo-query {
+        display: none;
+    }
 }
   
