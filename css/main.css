@@ -274,6 +274,16 @@ footer {
     margin-top: 10px;
     margin-left: 85px;
   }
+  .img-cuenco-terapias {
+    margin-bottom: 15px;
+    width: 200px;
+    height: 210px;
+  }
+  .img-page-tarot {
+    margin-bottom: 25px;
+    width: 220px;
+    height: 175px;
+  }
 }
 /* TABLETS */
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -287,21 +297,41 @@ footer {
   .cts-link {
     margin-left: 105px;
   }
+  .img-cuenco-terapias {
+    width: 290px;
+    height: 300px;
+  }
+  .img-page-tarot {
+    width: 400px;
+    height: 300px;
+  }
 }
 /* DESKTOP */
 @media (min-width: 1025px) {
   .titulo-query {
     display: none;
   }
+  .img-cuenco-terapias {
+    width: 290px;
+    height: 300px;
+  }
+  .img-page-tarot {
+    width: 400px;
+    height: 300px;
+  }
 }
 /* STYLES PAGE TERAPIAS*/
 .bg-lila {
-  background: linear-gradient(to bottom, #d9d9d9, rgba(120, 58, 116, 0.7921568627)); /* Gradiente lineal de amarillo a naranja */
+  background: linear-gradient(to bottom, #d9d9d9, rgba(120, 58, 116, 0.7921568627));
 }
 
 .img-cuenco-terapias {
-  width: 290px;
-  height: 300px;
+  border-radius: 50px 2px;
+  box-shadow: 3px 3px 3px 5px rgba(120, 58, 116, 0.6039215686);
+}
+
+/* ESTILOS DE LA PAGE TAROT */
+.img-page-tarot {
   border-radius: 50px 2px;
   box-shadow: 3px 3px 3px 5px rgba(120, 58, 116, 0.6039215686);
 }
