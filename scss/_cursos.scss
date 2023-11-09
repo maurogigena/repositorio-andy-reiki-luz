@@ -21,9 +21,9 @@
     text-decoration: none;
     color: #000;
     &:hover {
-        background-color: #ffffff;
+        background-color: #ffffff00;
         transform: scale(1.05); 
-        box-shadow: 5px 5px 5px 3px #808080;
+        box-shadow: 5px 5px 5px 3px #783a749a;
         border-radius: 10px;
     }
 }
@@ -55,4 +55,9 @@
     box-shadow: 5px 5px 5px #808080;
     height: 500px;
     width: 300px;
+}
+.img-cts {
+    margin-bottom: 30px;
+    border-radius: 50px 2px;
+    box-shadow: 3px 3px 3px 5px  #783a749a;
 }

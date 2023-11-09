@@ -149,9 +149,9 @@ footer {
   color: #000;
 }
 .col-cts:hover {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0);
   transform: scale(1.05);
-  box-shadow: 5px 5px 5px 3px #808080;
+  box-shadow: 5px 5px 5px 3px rgba(120, 58, 116, 0.6039215686);
   border-radius: 10px;
 }
 
@@ -185,6 +185,12 @@ footer {
   box-shadow: 5px 5px 5px #808080;
   height: 500px;
   width: 300px;
+}
+
+.img-cts {
+  margin-bottom: 30px;
+  border-radius: 50px 2px;
+  box-shadow: 3px 3px 3px 5px rgba(120, 58, 116, 0.6039215686);
 }
 
 /* QUIEN SOY Y CONTACTO */
@@ -284,6 +290,14 @@ footer {
     width: 220px;
     height: 175px;
   }
+  .img-page-flores {
+    margin-bottom: 25px;
+    width: 220px;
+    height: 175px;
+  }
+  .card-text {
+    font-size: 15px;
+  }
 }
 /* TABLETS */
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -305,6 +319,11 @@ footer {
     width: 400px;
     height: 300px;
   }
+  .img-page-flores {
+    margin-bottom: 25px;
+    width: 550px;
+    height: 350px;
+  }
 }
 /* DESKTOP */
 @media (min-width: 1025px) {
@@ -318,6 +337,17 @@ footer {
   .img-page-tarot {
     width: 400px;
     height: 300px;
+  }
+  .img-page-flores {
+    margin-bottom: 25px;
+    width: 550px;
+    height: 350px;
+  }
+  .img-reiki {
+    margin-left: 100px;
+    margin-bottom: 25px;
+    width: 550px;
+    height: 350px;
   }
 }
 /* STYLES PAGE TERAPIAS*/
@@ -334,6 +364,34 @@ footer {
 .img-page-tarot {
   border-radius: 50px 2px;
   box-shadow: 3px 3px 3px 5px rgba(120, 58, 116, 0.6039215686);
+}
+
+/* ESTILOS DE PAGE - FLORES DE BACH */
+.img-page-flores {
+  border-radius: 50px 2px;
+  box-shadow: 3px 3px 3px 5px rgba(120, 58, 116, 0.6039215686);
+}
+
+.datito-flores {
+  font-family: "Focus", serif;
+  font-style: italic;
+  font-size: 20px;
+}
+
+/* ESTILOS DE LA PAGE REIKI */
+.img-reiki {
+  border-radius: 50px 2px;
+  box-shadow: 3px 3px 3px 5px rgba(120, 58, 116, 0.6039215686);
+}
+
+.niveles-reiki {
+  font-family: "Forum", serif;
+  font-size: 22px;
+}
+
+.tipos-reiki {
+  font-family: "Great Vibes", cursive;
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -50,6 +50,14 @@
         width: 220px;
         height: 175px;
     }
+    .img-page-flores {
+        margin-bottom: 25px;
+        width: 220px;
+        height: 175px;
+    }
+    .card-text {
+        font-size: 15px;
+    }
 }
 /* TABLETS */
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -71,6 +79,11 @@
         width: 400px;
         height: 300px;
     }
+    .img-page-flores {
+        margin-bottom: 25px;
+        width: 550px;
+        height: 350px;
+    }
   }
 /* DESKTOP */
 @media (min-width: 1025px) {
@@ -84,6 +97,17 @@
     .img-page-tarot {
         width: 400px;
         height: 300px;
+    }
+    .img-page-flores {
+        margin-bottom: 25px;
+        width: 550px;
+        height: 350px;
+    }
+    .img-reiki {
+        margin-left: 100px;
+        margin-bottom: 25px;
+        width: 550px;
+        height: 350px;
     }
 }
   
