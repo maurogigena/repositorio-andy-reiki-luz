@@ -242,7 +242,7 @@ footer {
 /* MOBILE */
 @media (min-width: 300px) and (max-width: 767px) {
   .navbar-brand {
-    margin-left: 55px;
+    margin-left: 66px;
   }
   .titulo-query {
     top: 75px;
