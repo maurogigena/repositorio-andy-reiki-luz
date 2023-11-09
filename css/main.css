@@ -241,6 +241,9 @@ footer {
 /* MEDIA QUERIES - MOBILE FIRST */
 /* MOBILE */
 @media (min-width: 300px) and (max-width: 767px) {
+  .navbar-brand {
+    margin-left: 55px;
+  }
   .titulo-query {
     top: 75px;
     margin-left: 27px;
@@ -297,6 +300,10 @@ footer {
   }
   .card-text {
     font-size: 15px;
+  }
+  .img-reiki {
+    width: 250px;
+    height: 165px;
   }
 }
 /* TABLETS */
